@@ -1,0 +1,22 @@
+# Keil uVision build output and user files
+Objects/
+Listings/
+DebugConfig/
+RTE/
+*.uvguix.*
+*.uvoptx
+*.o
+*.d
+*.crf
+*.axf
+*.map
+*.lst
+*.htm
+*.build_log.htm
+
+# Keep the flashable HEX file (remove this line to ignore it)
+!*.hex
+
+# OS files
+.DS_Store
+Thumbs.db
